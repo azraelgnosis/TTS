@@ -15,13 +15,13 @@ public class Hello {
 		short sh = 127;
 		int i = 12345;
 		long l = 123456789102l;
-		char han = '한';
+//		char han = '한';
 		float f = 1.34f;
 		double d = 1.33455464d;
 		
 		// String is a reference type
-		String str = "한한";
-		char[] hans = {'한', '한'};
+//		String str = "한한";
+//		char[] hans = {'한', '한'};
 		
 		
 		char character = 'f'; // single-quote
@@ -39,6 +39,7 @@ public class Hello {
 		System.out.println(greeting);
 		System.out.println("Today is pretty ok!");
 		
+		// Getting user input
 		Scanner input = new Scanner(System.in);
 		System.out.print("What's your first name? ");
 		String givenName = input.nextLine();
